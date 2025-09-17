@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+nav {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color:darkblue;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+h1, h2 {
+    text-align: center;
+    color: darkblue;
+    font-family: "Georgia", serif;
+}
+.main-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    border: 3px solid #ccc;
+}
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.galery img {
+    margin: 5px;
+    width: 150px;
+    height: auto;
+    border: 2px solid #333;
+}
+
+foorter {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    font-size: 14px;
+}
